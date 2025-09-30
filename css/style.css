@@ -142,3 +142,36 @@ main {
     font-size: 10px;
 
 }
+
+.square {
+    display: inline-block;
+    font-size: 12px;
+    color:#ffffff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.editorial {
+    background-color: lightskyblue;
+}
+
+.goals {
+    background-color: violet;
+}
+
+.recruiting {
+    background-color: green;
+}
+
+.mobile {
+    background-color: orange;
+
+}
+
+.website {
+    background-color: pink;
+}
+
+.sales{
+    background-color: lightgreen;
+}
