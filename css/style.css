@@ -19,11 +19,33 @@ body {
     margin-bottom: 10px;
 }
 
+h2{
+    font-size: larger;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-position:inside;
+    padding-left: 20px;
+    }
+
+li {
+    padding: 10px 10px;
+}
+
+
+
 /* LAYOUT */
 .container: {
     width: 80%;
     margin: 0 auto;
-}
+   }
+
+    
+    
+
 
 /* HEADER */
 
@@ -54,6 +76,7 @@ main {
 }
 .menu-section {
     background-color: white;
+    border-bottom: #d3d3d3 solid 3px;
 }
 
 .first-button {
