@@ -39,11 +39,45 @@ header {
 
 .title {
     display: inline-block;
-    margin: 10px 10px 15px 15px;
+    margin: 10px 10px 15px 0px;
     display: inline-block;
     vertical-align: middle;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bolder;
+    color: #00005f;
 }
 
 /* MAIN */
+
+main {
+    margin: 40px 250px 10px 250px;
+}
+.menu-section {
+    background-color: white;
+}
+
+.first-button {
+ border: none;
+ background-color: aqua;
+  color: white;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px 0px 5px 20px;
+  border-radius: 5px;
+}
+
+.second-button {
+    border:#d3d3d3 solid 1px;
+ background-color: #ffffff;
+  color: lightgray;
+  padding: 3px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px 0px 5px 5px;
+  border-radius: 5px;
+}
