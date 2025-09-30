@@ -28,6 +28,7 @@ h2{
 
 ul {
     list-style-position:inside;
+    list-style-type: none;
     padding-left: 20px;
     }
 
@@ -103,4 +104,38 @@ main {
   font-size: 12px;
   margin: 5px 0px 5px 5px;
   border-radius: 5px;
+}
+
+.circle-green {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.circle-red {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #ff2f2f;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.yes {
+    color: greenyellow;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.no {
+    color: #ff2f2f;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
 }
