@@ -5,8 +5,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #d3d3d3;
+    font-family: sans-serif;
+}
+
 /* COMMON */
 /* Typography */
+
 
 /* Utilities */
 .mb-10 {
@@ -20,4 +26,24 @@
 }
 
 /* HEADER */
+
+header {
+    background-color: white;
+}
+
+#logo {
+    margin: 10px 10px 15px 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title {
+    display: inline-block;
+    margin: 10px 10px 15px 15px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
 /* MAIN */
